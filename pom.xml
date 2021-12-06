@@ -18,7 +18,7 @@
     <properties>
         <java.version>1.8</java.version>
         <swagger-request-validator.version>2.1.0</swagger-request-validator.version>
-        <spring-cloud-contract.version>2.0.2.RELEASE</spring-cloud-contract.version>
+        <spring-cloud-contract.version>3.1.0</spring-cloud-contract.version>
         <scc-oa3-version>2.0.2.6</scc-oa3-version>
     </properties>
 
@@ -70,6 +70,12 @@
             <artifactId>swagger-request-validator-restassured</artifactId>
             <version>${swagger-request-validator.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-contract-maven-plugin</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
